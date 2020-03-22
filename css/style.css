@@ -1,0 +1,343 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.7;
+  color: #364d59 !important;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.fixed-top {
+  background-color: #00000078;
+}
+
+.site-navbar .site-logo {
+  margin: 0;
+  padding: 0;
+  font-size: 1.7rem;
+}
+.site-navbar .site-navigation .site-menu > li.active > a {
+  color: #f4ad2d;
+}
+.site-navbar .site-logo a {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.site-navbar .site-navigation .site-menu > li > a:hover {
+  color: #f4ad2d;
+}
+
+.site-navbar .site-navigation .site-menu > li > a {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 20px 10px;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+}
+/* .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -20px;
+  margin-left: -20px;
+} */
+.jumb {
+  background: #000000e8 url(../img/hero_1.jpg);
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 10em;
+  padding-bottom: 10em;
+  background-blend-mode: hard-light;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 16px;
+  right: 0;
+  height: 100%;
+  width: 92%;
+  opacity: 0;
+  transition: 0.3s all ease-in-out;
+  background-color: #0a0a0a7d;
+}
+.icon-icon:hover .overlay {
+  opacity: 1;
+}
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 16px;
+  right: 0;
+  height: 73%;
+  width: 92%;
+  opacity: 0;
+  transition: 0.3s all ease-in-out;
+  background-color: #0a0a0a7d;
+}
+.icon-icon:hover .overlay2 {
+  opacity: 1;
+}
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 16px;
+  right: 0;
+  height: 84%;
+  width: 92%;
+  opacity: 0;
+  transition: 0.3s all ease-in-out;
+  background-color: #0a0a0a7d;
+}
+.icon-icon:hover .overlay3 {
+  opacity: 1;
+}
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 16px;
+  right: 0;
+  height: 100%;
+  width: 92%;
+  opacity: 0;
+  transition: 0.3s all ease-in-out;
+  background-color: #0a0a0a7d;
+}
+.icon-icon:hover .overlay4 {
+  opacity: 1;
+}
+.overlay5 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 16px;
+  right: 0;
+  height: 74%;
+  width: 92%;
+  opacity: 0;
+  transition: 0.3s all ease-in-out;
+  background-color: #0a0a0a7d;
+}
+.icon-icon:hover .overlay5 {
+  opacity: 1;
+}
+.btn-video > span {
+  color: #fff;
+  font-size: 4rem;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+
+.icon {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title {
+  color: rgb(244, 173, 45);
+  font-family: "Hepta Slab", serif;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 48px;
+  margin-bottom: 16px;
+  margin-top: 0px;
+}
+.lead {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30.6px;
+  margin-bottom: 16px;
+  margin-top: 0px;
+  text-align: left;
+}
+.btn {
+  border: none;
+  padding: 12px 30px;
+  background: rgb(244, 173, 45);
+  font-family: Roboto;
+  border-radius: 30px;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+}
+.btn2 {
+  border: none;
+  padding: 12px 22px;
+  background: rgb(244, 173, 45);
+  font-family: Roboto;
+  border-radius: 30px;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+}
+
+.section1 {
+  padding: 7em 0em 7em 1em;
+}
+
+.item {
+  border: none;
+  border-radius: 20px;
+}
+.subtitle {
+  color: rgb(0, 0, 0);
+  font-family: "Hepta Slab", serif;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 38.4px;
+  margin-bottom: 8px;
+  margin-top: 0px;
+}
+.subtitle2 {
+  color: rgb(0, 0, 0);
+  font-family: "Hepta Slab", serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 24px;
+  margin-top: 0px;
+  text-align: left;
+}
+.sub-title {
+  color: rgb(244, 173, 45);
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Hepta Slab", serif;
+}
+.about-me {
+  background: #000;
+}
+.cont {
+  padding: 7em 0em;
+}
+.about-me p {
+  font-size: 16px;
+  line-height: 27.2px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.quote {
+  border-left-color: rgb(244, 173, 45);
+  border-left-style: solid;
+  border-left-width: 10px;
+  font-weight: 300;
+  line-height: 27.2px;
+  padding-left: 30px;
+}
+.quote2 {
+  color: rgb(54, 77, 89);
+  font-family: "Segoe UI", Roboto, "Helvetica Neue";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 30.6px;
+  margin-bottom: 16px;
+  margin-top: 0px;
+  text-align: left;
+}
+.icon-social {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 12px 0px;
+  background-color: #14171b;
+  color: rgb(202, 134, 11);
+  text-align: center;
+  line-height: 1.5rem;
+}
+.icon-social:hover {
+  background: #fff;
+  color: rgb(202, 134, 11);
+}
+.footer .footer-heading {
+  font-size: 16px;
+}
+
+.footer p {
+  color: #fff;
+  line-height: 27.2px;
+}
+.footer ul li {
+  margin-bottom: 10px;
+}
+.footer a:hover {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s all ease;
+  background-color: transparent;
+}
+.footer a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+}
+.border-top {
+  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+.btn:hover {
+  color: #000;
+  background: rgba(244, 173, 45, 0.8);
+}
+.post-entry-1 .meta {
+  color: #ccc;
+}
+.post-entry-1 .post-entry-1-contents {
+  background: #fff;
+  padding: 20px;
+}
+.post-entry-1 .post-entry-1-contents h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #000;
+}
+.post-entry-1 .post-entry-1-contents h2 a:hover {
+  color: #f4ad2d;
+  text-decoration: none;
+}
+.post-entry-1 .post-entry-1-contents h2 a {
+  color: #000;
+  transition: 0.3s all ease;
+  text-decoration: none;
+}
+.post-entry-1 .post-entry-1-contents p {
+  color: rgb(54, 77, 89);
+  font-family: "Helvetica Neue", sans-serif, "Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 27.2px;
+  margin-bottom: 16px;
+}
+.form-control:hover {
+  border: 1px solid #666666;
+}
+
+.form-control {
+  height: 55px;
+  background: #fff;
+  font-family: "Helvetica Neue" "Segoe UI", Roboto;
+}
